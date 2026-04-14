@@ -18,7 +18,7 @@
 | Visual Studio Code (VSCode) | Source code editor | All platforms | [Installation Guide](#visual-studio-code-vscode) |
 | Git CLI | Command-Line Interface for version control | All platforms | [Installation Guide](#git-cli) |
 | Conda/Miniconda | Package and environment manager | All platforms | [Installation Guide](#condaminiconda) |
-| DBeaver/DBGate | Database viewer | All platforms | [Installation Guide](#duckdb-browser-dbgate) |
+| DBGate/DBeaver | Database viewer | All platforms | [Installation Guide](#duckdb-browser-dbgate) |
 | Test Installation | Confirm if everything is working fine | All platforms | [Verification Guide](#verification-of-installation-mac-and-windows-users) |
 
 ## WSL for Windows
@@ -167,6 +167,8 @@ Please refer to [Reference - Conda or Miniconda](reference.md#conda-or-miniconda
 We will be using DBGate SQL client throughout this course to connect to databases and write SQL code. The free version is called DBGate Community. 
 
 Download and install DbGate Community version [here](https://www.dbgate.io/download-community/).
+
+### Important DBGate version 7.1.8 has internal API issues, please download the last stable version 7.1.3. [here](https://github.com/dbgate/dbgate/releases?page=2)
 
 ![alt text](assets/dbGate.png)
 
